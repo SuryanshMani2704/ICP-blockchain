@@ -1,0 +1,16 @@
+{
+  "canisters": {
+    "icp_token_wallet": {
+      "main": "src/lib.rs",
+      "type": "custom",
+      "candid": "src/icp_token_wallet.did"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
